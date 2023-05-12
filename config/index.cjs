@@ -14,6 +14,10 @@ const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '',
+  TIAN_API: {
+    // 天行API KEY，如果使用天行API则需要填写此项
+    key: '466f59c0b0ebdf31baf4afcd78175c39',
+  },
 
   PROVINCE: '内蒙古自治区',
   CITY: '呼和浩特',
@@ -28,6 +32,7 @@ const USER_CONFIG = {
       useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-20',
+
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
