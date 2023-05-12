@@ -4,7 +4,7 @@ const TEMPLATE_CONFIG = [
     id: '0001',
     title: '亲爱的宝宝, 早上好吖️~爱你❤️',
     desc: `
-      **{{date.DATA}}**
+      🗓️**{{date.DATA}}**
       
       下个休息日：{{holidaytts.DATA}}
       
@@ -12,13 +12,19 @@ const TEMPLATE_CONFIG = [
       
       城市：{{city.DATA}}
       
-      天气：{{weather.DATA}}
+      天气☁️：{{weather.DATA}}
       
-      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      气温(最高/最低)🌡️:{{max_temperature.DATA}} / {{min_temperature.DATA}}
       
-      风向: {{wind_direction.DATA}}
+      风向🚩: {{wind_direction.DATA}}
       
-      风级: {{wind_scale.DATA}}
+      风级💨: {{wind_scale.DATA}}
+      
+      紫外线强度指数☀️: {{tian_api_weather_uv_index_0.DATA}}
+      
+      穿衣指数👚: {{tian_api_weather_tips_0.DATA}}
+      
+      ---
       
       {{comprehensive_horoscope.DATA}}
       
