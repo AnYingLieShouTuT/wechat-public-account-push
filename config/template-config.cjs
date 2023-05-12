@@ -24,7 +24,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      今天是我们在一起的第{{love_day.DATA}}天~爱你❤️
+      今天是我们在一起的第{{love_day.DATA}}天~么么哒！❤️
       
       {{birthday_message.DATA}}
       
