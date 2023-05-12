@@ -6,6 +6,8 @@ const TEMPLATE_CONFIG = [
     desc: `
       🗓️**{{date.DATA}}**
       
+      {{tian_api_morning_greeting.DATA}}
+      
       下个休息日：{{holidaytts.DATA}}
       
       ---
