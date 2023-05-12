@@ -14,7 +14,7 @@ const TEMPLATE_CONFIG = [
     title: '亲爱的, 早上好',
     // 模板内容，支持部分markdown语法
     desc: `
-      **{{date.DATA}}**
+      🗓️**{{date.DATA}}**
       
       下个休息日：{{holidaytts.DATA}}
       
@@ -29,6 +29,12 @@ const TEMPLATE_CONFIG = [
       风向: {{wind_direction.DATA}}
       
       风级: {{wind_scale.DATA}}
+      
+      紫外线强度指数☀️: {{tian_api_weather_uv_index_0.DATA}}
+      
+      穿衣指数👚: {{tian_api_weather_tips_0.DATA}}
+      
+      ---
       
       {{comprehensive_horoscope.DATA}}
       
