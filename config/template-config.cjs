@@ -4,7 +4,7 @@ const TEMPLATE_CONFIG = [
     id: '0001',
     title: '亲爱的宝宝早上好吖️~爱你❤️',
     desc: `
-      🗓️**{{date.DATA}}**
+      🗓️**{{date.DATA}}**🗓️
       
       {{tian_api_morning_greeting.DATA}}
       
