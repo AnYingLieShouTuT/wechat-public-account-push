@@ -10,7 +10,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      城市：{{city.DATA}}
+      城市🏙️：{{city.DATA}}
       
       天气☁️：{{weather.DATA}}
       
@@ -26,13 +26,13 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      {{comprehensive_horoscope.DATA}}
+      ♒{{comprehensive_horoscope.DATA}}
       
       ---
       
       今天是我们在一起的第{{love_day.DATA}}天~么么哒！❤️
       
-      {{birthday_message.DATA}}
+      🎂{{birthday_message.DATA}}
       
       ---
       
